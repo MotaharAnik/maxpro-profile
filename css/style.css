@@ -187,6 +187,23 @@ img{
     font-weight: bold;
     margin-bottom: 0;
 }
+ul li{
+    list-style: none;
+}
+.page-header-border{
+    overflow: hidden;
+    border-top: 1px solid #3d5671;
+    border-left: 1px solid #3d5671;
+    border-right: 1px solid #3d5671;
+    border-bottom: 5px solid #3d5671;
+}
+a{
+    color:#000;
+}
+.page-index-image{
+    float: right;
+    padding: 10px;
+}
 .
 .
 .

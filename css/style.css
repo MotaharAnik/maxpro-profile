@@ -101,7 +101,6 @@ textarea {
    Author's custom styles
    ========================================================================== */
 body{
-    max-width: 100%;
     font-family: 'Open Sans', sans-serif;
     /*font-family: 'Pacifico', cursive;*/
 }
@@ -116,10 +115,10 @@ a:hover, a:focus {
     text-decoration: none;
 }
 .header-border{
-    border-top: 1px solid #943634;
-    border-left: 1px solid #943634;
-    border-right: 1px solid #943634;
-    border-bottom: 5px solid #943634;
+    overflow: hidden;
+    border-top: 1px solid #d24726;
+    border-left: 1px solid #d24726;
+    border-bottom: 5px solid #d24726;
 }
 .header-text{
     text-align: right;
@@ -133,8 +132,9 @@ a:hover, a:focus {
     min-height: 700px;
 }
 .footer-border{
-    margin-top: 10px;
+    overflow: hidden;
     border: 1px solid #000;
+    /*border-bottom: 1px solid #000;*/
 }
 .footer-logo, .header-logo{
     padding-left: 15px;
@@ -144,13 +144,17 @@ img{
     height: auto;
 }
 .image-position{
-    
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 50%;
 }
 .body-logo{
     padding-top: 100px;
 }
 .body-logo img{
     text-align: center;
+    max-width: 30%;
+    height: 30%;
 }
 .body-image{
     padding-top: 100px;
@@ -158,21 +162,21 @@ img{
 
 .body-image img{
     text-align: center;
-    max-width: 100%;
-    height: 100%;
-    
+    max-width: 300%;
+    height: 300%;
+    padding-left: 30%;
 }
 .body-text img{
-    
+    text-align: center;
+    min-width: 500%;
+    min-height: 300%;
 }
 .body-text{
-    border-top: 1px solid #943634;
-    border-left: 1px solid #943634;
-    border-right: 1px solid #943634;
-    border-bottom: 1px solid #943634;
+    border-top: 1px solid #d24726;
+    border-bottom: 1px solid #d24726;
 }
 .body-address{
-    color:#943634;
+    color:#d24726;
 }
 #address-name{
     font-size: 25px;
@@ -183,23 +187,9 @@ img{
     font-weight: bold;
     margin-bottom: 0;
 }
-ul li{
-    list-style: none;
-}
-.page-header-border{
-    overflow: hidden;
-    border-top: 1px solid #3d5671;
-    border-left: 1px solid #3d5671;
-    border-right: 1px solid #3d5671;
-    border-bottom: 5px solid #3d5671;
-}
-a{
-    color:#000;
-}
-.page-index-image{
-    float: right;
-    padding: 10px;
-}
+.
+.
+.
 .
 .
 .
@@ -400,3 +390,40 @@ a{
         page-break-after: avoid;
     }
 }
+
+
+
+
+
+
+
+
+
+/** shohid css **/
+
+div.text-body{
+    padding-top: 10px;
+}
+
+div.main-body .header{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+div.main-body .header .border{
+    border: 6px bold #8064A2!important;
+}
+div.main-body .header .border .img{
+    float: right;
+    padding: 5px 0px 5px 0px;
+}
+div.main-body .header .border .text-header{
+    text-align: center;
+    padding-top:10px;
+}
+div.main-body .header .border .text-header span{
+    font-size: 16px; 
+    font-weight: bold; 
+    color:#365F91;
+}
+
+/** end shohid css **/
